@@ -6,12 +6,16 @@
         <artifactId>gulimall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.atguigu.gulimall</groupId>
     <artifactId>gulimall-product</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall-product</name>
-    <description>guuli-ware</description>
-
+    <description>商品服务</description>
+   <dependencies>
+       <dependency>
+           <groupId>com.atguigu.gulimall</groupId>
+           <artifactId>gulimall-common</artifactId>
+       </dependency>
+   </dependencies>
     <build>
         <plugins>
             <plugin>

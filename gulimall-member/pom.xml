@@ -6,12 +6,17 @@
         <artifactId>gulimall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.atguigu.gulimall</groupId>
     <artifactId>gulimall-member</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall-member</name>
-    <description>guuli-ware</description>
+    <description>guuli-member</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.atguigu.gulimall</groupId>
+            <artifactId>gulimall-common</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
