@@ -1,22 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-        <modelVersion>4.0.0</modelVersion>
-        <parent>
-            <groupId>com.atguigu.gulimall</groupId>
-            <artifactId>gulimall</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </parent>
-        <artifactId>gulimall-ware</artifactId>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.zsy</groupId>
+        <artifactId>guli-mall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <name>gulimall-ware</name>
-        <description>gulimall-ware</description>
+    </parent>
+    <groupId>com.zsy</groupId>
+    <artifactId>mall-ware</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>mall-ware</name>
+    <description>仓储服务</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.atguigu.gulimall</groupId>
-            <artifactId>gulimall-common</artifactId>
+            <groupId>com.zsy</groupId>
+            <artifactId>mall-common</artifactId>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -27,4 +30,3 @@
     </build>
 
 </project>
-
